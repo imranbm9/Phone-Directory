@@ -1,12 +1,12 @@
 import React from "react";
 import './Header.css';
 
-const Header = function (props) {
+const Footer = function () {
     return (
         <div className="header">
-            {props.heading}
+            Phone Directory
       </div>
     )
 }
 
-export default Header;
+export default Footer;
